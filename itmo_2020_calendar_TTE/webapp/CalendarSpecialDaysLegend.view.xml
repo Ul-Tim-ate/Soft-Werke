@@ -8,6 +8,5 @@
 		<l:VerticalLayout>
 			<u:Calendar id="calendar" legend="legend"  months="12" intervalSelection="true" showWeekNumbers="false" width="100%"/>
 			<u:CalendarLegend id="legend"/>
-			<ToggleButton text="Special Days" press="handleShowSpecialDays"/>
 		</l:VerticalLayout>
 </mvc:View>
