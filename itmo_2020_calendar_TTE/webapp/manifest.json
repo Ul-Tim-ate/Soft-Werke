@@ -27,6 +27,12 @@
 					"manifest.json"
 				]
 			}
-		}
+		},
+    "models": {
+      "calendarSpecialDates": {
+        "type": "sap.ui.model.xml.XMLModel",
+        "uri": "./holidays.xml"
+      }
+    }
 	}
 }
